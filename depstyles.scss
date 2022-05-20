@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500&display=swap');
+
+
+body
+{
+    margin:0;
+    padding:0;
+    font-family: plus jakarta sans;
+
+}
+
+.container{
+ 
+    height: 100vh;
+    .inner-container{
+      
+        
+        padding: 1em 2em;
+        height: inherit;
+        display: flex;
+        justify-content: space-around;
+        .workshops,.events{
+           
+            .each{
+                box-shadow: 2px 2px 2px rgb(197, 197, 197);
+                border-radius: 1em;
+                margin:6px 4px;
+                img{
+                    width: 400px;
+                    
+                }
+                p{
+                    padding:1em
+                }
+                width: 400px;
+                padding: 1em 2em;
+               button{
+                   border:none;
+                   background-color: #D011C9;
+                   padding:1em 2em;
+                   color: white;
+                   border-radius:1em;
+                   font-family: plus jakarta sans;
+                   &:hover{
+                       background-color: #f150ec;
+                   }
+               }
+            }
+        }
+    }
+}
+.back{
+    width: 60px;
+    height: 60px;
+    padding: 1em;
+}

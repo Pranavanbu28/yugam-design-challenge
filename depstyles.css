@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: plus jakarta sans;
+}
+
+.container {
+  height: 100vh;
+}
+
+.container .inner-container {
+  padding: 1em 2em;
+  height: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.container .inner-container .workshops .each, .container .inner-container .events .each {
+  -webkit-box-shadow: 2px 2px 2px #c5c5c5;
+          box-shadow: 2px 2px 2px #c5c5c5;
+  border-radius: 1em;
+  margin: 6px 4px;
+  width: 400px;
+  padding: 1em 2em;
+}
+
+.container .inner-container .workshops .each img, .container .inner-container .events .each img {
+  width: 400px;
+}
+
+.container .inner-container .workshops .each p, .container .inner-container .events .each p {
+  padding: 1em;
+}
+
+.container .inner-container .workshops .each button, .container .inner-container .events .each button {
+  border: none;
+  background-color: #D011C9;
+  padding: 1em 2em;
+  color: white;
+  border-radius: 1em;
+  font-family: plus jakarta sans;
+}
+
+.container .inner-container .workshops .each button:hover, .container .inner-container .events .each button:hover {
+  background-color: #f150ec;
+}
+
+.back {
+  width: 60px;
+  height: 60px;
+  padding: 1em;
+}
+/*# sourceMappingURL=depstyles.css.map */
